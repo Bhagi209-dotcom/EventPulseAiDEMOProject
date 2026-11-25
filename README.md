@@ -15,7 +15,7 @@ EventPulse AI replaces delayed post-event evaluation surveys with continuous, pr
 
 ### Option A: One-Command Launcher (macOS / Linux)
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Bhagi209-dotcom/EventPulseAiDEMOProject
 cd EventPulseAI
 chmod +x run_all.sh
 ./run_all.sh
