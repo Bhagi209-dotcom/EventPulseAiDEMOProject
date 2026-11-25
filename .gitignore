@@ -1,0 +1,25 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+node_modules/
+dist/
+
+# Databases & Logs
+*.db
+*.sqlite
+*.log
+catboost_info/
+backend/catboost_info/
+
+# Keep HuggingFace raw dataset
+!backend/data/online_lecture_feedback.csv
+
+.DS_Store
+**/.DS_Store
