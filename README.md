@@ -4,6 +4,8 @@
 
 EventPulse AI replaces delayed post-event evaluation surveys with continuous, privacy-preserving live audience telemetry. During lectures, seminars, or technical workshops, attendees submit frictionless 1-tap reactions, live poll votes, and anonymous Q&A from their phones—while presenters see calibrated disengagement risk probabilities, local SHAP root-cause explanations, and NLP-classified Q&A in real time over WebSockets.
 
+> **One-Line AI Handoff Prompt:** `Read README.md, backend/app/main.py, backend/app/api/routes.py, backend/app/services/ml_engine.py, backend/app/services/sanitizer.py, and frontend/src/App.jsx to understand EventPulse AI (FastAPI + WebSockets + SQLite + Platt-calibrated CatBoost + SHAP + VADER/Intent NLP + React/Tailwind), then help me extend or customize it while keeping all paths relative, DPDP PII masking intact, and tests passing.`
+
 ---
 
 ## 1. How to Run (Step-by-Step)
